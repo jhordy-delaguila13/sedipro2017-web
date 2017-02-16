@@ -1,0 +1,107 @@
+.navbar{
+    padding: 13px 0;
+    background-color: white;
+}
+
+.navbar-brand{
+
+}
+
+nav ul li {
+    font-size: 1.2em;
+}
+
+nav ul li:hover{
+    background-color: #f9f9f9;
+}
+
+nav li a:hover{
+    color: #2a88bd !important;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+header{
+    width: 100%;
+    background:  white url("") center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.wrap{
+    padding: 110px 0 100px;
+}
+
+.jumbotron{
+    background-color: transparent;
+    text-align: center;
+}
+
+.btn-lg{
+    width: 200px;
+    padding: 15px 0;
+}
+
+.titulo{
+    font-family: 'Dosis', sans-serif;
+    font-size: 3em;
+}
+
+.lead-skill{
+    font-family: 'Quicksand', sans-serif;
+    padding: 15px;
+}
+
+.btn-red{
+    font-family: 'Dosis', sans-serif;
+    background-color: #ec2337;
+    color: white;
+}
+
+.btn-red:hover{
+    background-color: blue;
+    color: white;
+}
+
+.btn-blue{
+    font-family: 'Dosis', sans-serif;
+    background-color: blue;
+    color: white;
+}
+
+.btn-blue:hover{
+    background-color: #ec2337;
+    color: white;
+}
+
+article.fondo-blue{
+    background: #2a88bd;
+    color: white;
+}
+
+article{
+    padding: 100px 0;
+}
+
+.tex-center{
+    text-align: center;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+
+footer{
+    padding: 25px 0;
+}
