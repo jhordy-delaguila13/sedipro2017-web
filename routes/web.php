@@ -20,3 +20,14 @@ Route::get('/about', function (){
 });
 
 
+Route::get('/events', function (){
+    return view('events');
+});
+
+Route::get('/login', function (){
+    return view('login');
+});
+
+Route::get('/contact', function (){
+    return view('contact');
+});

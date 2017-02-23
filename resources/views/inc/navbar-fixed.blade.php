@@ -12,17 +12,16 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">
-
+            <a class="navbar-brand" href="{{ url('/') }}">
                 SediproUCV
             </a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <button class="btn btn-danger navbar-btn navbar-right btn-red">Iniciar Sesión</button>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="">Acerca de Nosotros</a></li>
-                <li><a href="#">Eventos</a></li>
+                <li><a href="{{ url('about') }}">Acerca de Nosotros</a></li>
+                <li><a href="{{ url('events') }}">Eventos</a></li>
                 <li><a href="#">Contacto</a></li>
+                <li><a href="#" class="btn btn-default btn-navbar">Iniciar Sesión</a></li>
             </ul>
         </div>
     </div>
