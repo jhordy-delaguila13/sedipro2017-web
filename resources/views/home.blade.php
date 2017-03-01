@@ -1,127 +1,206 @@
 @extends('layouts.master')
 
 @section('header')
-    <header class="intro-header">
-        <div class="container">
-            <div class="jumbotron">
-                <img src="{{ asset('assets/img/logo_sediproucv.png') }}" alt="SediproUCV">
-                <h1 class="titulo">Sección Estudiantil de Gestión de Proyectos</h1>
-                <p class="lead-skill"><em>“Los proyectos no son el fin, son el medio para ser y hacer felices a los demás”</em></p>
-
-                <ul class="list-inline">
-                    <li><a href="#" class="btn btn-default btn-lg btn-red">Conocimientos</a></li>
-                    <li><a href="#" class="btn btn-default btn-lg btn-blue">Proyectos</a></li>
-                    <li><a href="#" class="btn btn-default btn-lg btn-red">Integración</a></li>
-                </ul>
+    <header class="header">
+        <div class="text-horinzontal-left">
+            <div class="btn-group">
+                <button type="button" class="btn btn-default btn-lg">Conocimientos</button>
+                <button type="button" class="btn btn-default btn-lg">Proyectos</button>
+                <button type="button" class="btn btn-default btn-lg">Integración</button>
             </div>
         </div>
     </header>
-@endsection
-
-@section('navbar')
     @include('inc.navbar-static')
 @endsection
 
 @section('content')
-    <section class="container-blue">
+    <section class="about">
         <div class="container">
-            <h2><span>!Hola, Somos SediproUCV!</span></h2>
+            <h1><span>!Hola, Somos SediproUCV!</span></h1>
             <p>
                 Sedipro UCV Trujillo, sección estudiantil de dirección de proyectos de la
                 Universidad César Vallejo de Trujillo. Es una comunidad estudiantil que
                 promueve y aplica las buenas prácticas en Dirección de Proyectos bajo el enfoque del PMI.
             </p>
-            <h2><span></span></h2>
+            <ul class="list-inline">
+                <li><a href="https://plus.google.com/107293147230348827586" target="_blank" class="social google-pluse btn btn-default"><i class="fa fa-google-plus fa-2x"></i></a></li>
+                <li><a href="https://www.facebook.com/sediproUCV/" target="_blank" class="social facebook btn btn-default"><i class="fa fa-facebook fa-2x"></i></a></li>
+                <li><a href="#" class="social youtube btn btn-default"><i class="fa fa-youtube fa-2x"></i></a></li>
+            </ul>
+            <h1><span></span></h1>
         </div>
     </section>
-    <section>
-        <div class="container padding-top">
-            <div class="row">
-                <h1>Convocatoria</h1>
-                <hr>
-            </div>
-            <div class="row tex-center">
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <a href="{{ asset('assets/img/announcement/convocatoria1.jpg') }}" data-lightbox="image-1">
-                                <img src="{{ asset('assets/img/announcement/convocatoria1.jpg') }}" class="img-responsive">
-                            </a>
-                            <div class="caption">
-                                <h4>Convocatoria</h4>
-                                <p>Hola</p>
-                                <a href="#" class="btn btn-primary">Registrate</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <a href="{{ asset('assets/img/announcement/convocatoria2.jpg') }}" data-lightbox="image-1">
-                                <img src="{{ asset('assets/img/announcement/convocatoria2.jpg') }}" class="img-responsive">
-                            </a>
-                            <div class="caption">
-                                <h4>Convocatoria</h4>
-                                <p>Hola</p>
-                                <a href="#" class="btn btn-primary">Registrate</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <a href="{{ asset('assets/img/announcement/convocatoria3.jpg') }}" data-lightbox="image-1">
-                                <img src="{{ asset('assets/img/announcement/convocatoria3.jpg') }}">
-                            </a>
-                            <div class="caption">
-                                <h4>Convocatoria</h4>
-                                <p>Hola</p>
-                                <a href="#" class="btn btn-primary">Registrate</a>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-        </div>
-    </section>
-    <section>
+    <section class="background background-gray">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div id="Carousel" class="carousel slide">
-
-                        <ol class="carousel-indicators">
-                            <li data-target="#Carousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#Carousel" data-slide-to="1"></li>
-                        </ol>
-
-                        <!-- Carousel items -->
-                        <div class="carousel-inner">
-
-                            <div class="item active">
-                                <div class="row">
-                                    <div class="col-md-3"><a href="#" class=""><img align="center" src="{{ asset('assets/img/collaborators/colegio.png') }}" alt="Image" style="max-width:50%;"></a></div>
-                                    <div class="col-md-3" align="center"><a href="#" class="">
-
-                                            <img src="{{ asset('assets/img/collaborators/pmi.png') }}" alt="Image" style="max-width:50%;"></a></div>
-                                    <div class="col-md-3" align="center"><a href="#" class=""><img src="{{ asset('assets/img/collaborators/pmi-cajamarca.png') }}" alt="Image" style="max-width:50%;"></a></div>
-                                    <div class="col-md-3"><a href="#" class=""><img src="{{ asset('assets/img/collaborators/rudp.png') }}" alt="Image" style="max-width:50%;"></a></div>
-                                </div><!--.row-->
-                            </div><!--.item-->
-
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-md-3"><a href="#" class=""><img src="{{ asset('assets/img/collaborators/ucv.jpg') }}" alt="Image" style="max-width:100%;"></a></div>
-                                    <div class="col-md-3"><a href="#" class=""><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
-                                    <div class="col-md-3"><a href="#" class=""><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
-                                    <div class="col-md-3"><a href="#" class=""><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
-                                </div><!--.row-->
-                            </div><!--.item-->
-
-                        </div><!--.carousel-inner-->
-                        <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
-                        <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
-                    </div><!--.Carousel-->
-
+                <h2>Últimos Eventos</h2>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="{{ asset('assets/img/events/convocatoria1.jpg') }}" class="img-responsive">
+                        <div class="caption">
+                            <h3>Convocatoria 2017-1</h3>
+                            <p class="description">
+                                Hora : 6:00 PM
+                                Lugar : 306 - Pabellón E.
+                                Tú puedes ser quien estamos buscando! #SediproUCVTrujillo #ConvocatoriaSedipro2017
+                            </p>
+                            <p><a href="{{ url('events') }}" class="btn btn-default btn-block">Ver más</a></p>
+                            <p><a href="#" class="btn btn-primary btn-block">Registrate</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="{{ asset('assets/img/events/convocatoria2.jpg') }}" class="img-responsive">
+                        <div class="caption">
+                            <h3>Convocatoria 2017-1</h3>
+                            <p class="description">
+                                Ya puedes formar parte de Sedipro UCV - Sede Trujillo, para estudiantes de todas las escuelas profesionales!!
+                            </p>
+                            <p><a href="#" class="btn btn-default btn-block">Ver más</a></p>
+                            <p><a href="#" class="btn btn-primary btn-block">Registrate</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="{{ asset('assets/img/events/convocatoria3.jpg') }}" class="img-responsive">
+                        <div class="caption">
+                            <h4>Convocatoria 2017-1</h4>
+                            <p class="description">
+                                Vamos !! tú puedes ser parte de Sedipro UCV - Sede Trujillo, inscripciones abiertas para
+                                estudiantes de todas las escuelas profesionales!!
+                            </p>
+                            <p><a href="#" class="btn btn-default btn-block">Ver más</a></p>
+                            <p><a href="#" class="btn btn-primary btn-block">Registrate</a></p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div><!--.container-->
+        </div>
     </section>
 
+    <section class="background background-white">
+
+        <div class="container">
+            <div class="row">
+                <h2>Nuestra Galeria</h2>
+                <hr>
+            </div>
+            <div class="row">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                        <li data-target="#myCarousel" data-slide-to="5"></li>
+                        <li data-target="#myCarousel" data-slide-to="6"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="assets/img/home/gallery/seminario1.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/home/gallery/seminario2.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/home/gallery/seminario3.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/home/gallery/seminario4.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/home/gallery/seminario5.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/home/gallery/voluntarios1.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/home/gallery/voluntarios2.jpg" alt="">
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="background">
+        <div class="tex-center">
+            <h2>Nuestros Colaboradores</h2>
+        </div>
+    </section>
+
+    <section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><i class="fa fa-trophy" aria-hidden="true"></i> Reconocidos por:</h3>
+                        </div>
+                        <div class="panel-body">
+                            * Universidad César Vallejo<br>
+                            * Red Universitaria de Dirección de Proyectos<br>
+                            * PMI Lima,Perú Chapter<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><i class="fa fa-angellist" aria-hidden="true"></i> Síguenos en nuestras redes sociales:</h3>
+                        </div>
+                        <div class="panel-body social-large">
+                            <a href=""><i class="fa fa-facebook-square facebook-large" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-google-plus-official google-plus-large" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-youtube youtube-large" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">¿Tienes algo que decirnos?</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="col-md-9">
+                                <p>¡Escríbenos a nuestro correo y te responderemos apenas podamos!</p>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="{{ url('contact') }}" class="btn btn-primary btn-block">CONTÁCTANOS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
 @endsection
