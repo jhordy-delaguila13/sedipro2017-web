@@ -30,7 +30,7 @@
         <script src="{{ asset('assets/bootstrap/js/jquery-3.1.1.min.js')}}"></script>
         <script src="{{ asset('assets/bootstrap/js/bootstrap.min.js')}}"></script>
         <script src="{{ asset('assets/magnific-popup/jquery.magnific-popup.js') }}"></script>
-        <script src="{{ asset('function.jfunction.jscript>
+        <script src="{{ asset('assets/js/function.js')}}"></script>
 
     </body>
 </html>
