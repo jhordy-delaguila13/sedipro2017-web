@@ -93,9 +93,18 @@
             </div>
         </div>
     </section>
+    <section class="background background-blue">
+        <div class="container">
+            <div class="row">
+                <h2 class="color-white">Nuestros Proyectos</h2>
+            </div>
+            <div class="row">
+                <a href="https://drive.google.com/open?id=0BxRsIqUMzBrTOFBKSm1VbnQyYTg" target="_blank">PROYECTA - T</a>
+            </div>
+        </div>
+    </section>
 
     <section class="background background-white">
-
         <div class="container">
             <div class="row">
                 <h2>Nuestra Galeria</h2>
