@@ -2,6 +2,14 @@
 
 @section('header')
     <header class="header">
+        <div class="intro-text">
+            <h1 class="intro-lead-in">Welcome !</h1>
+            <br><br>
+            <a href="#" class="btn btn-default buttom-white">
+                Proyectos
+            </a>
+        </div>
+        <!--
         <div class="text-horinzontal-left">
             <div class="btn-group">
                 <button type="button" class="btn btn-default btn-lg">Conocimientos</button>
@@ -9,14 +17,17 @@
                 <button type="button" class="btn btn-default btn-lg">Integración</button>
             </div>
         </div>
+        -->
     </header>
     @include('inc.navbar-static')
 @endsection
 
 @section('content')
-    <section class="about">
+    <section id="about" class="about">
         <div class="container">
+            <br><br>
             <h1><span>!Hola, Somos SediproUCV!</span></h1>
+            <br>
             <p>
                 Sedipro UCV Trujillo, sección estudiantil de dirección de proyectos de la
                 Universidad César Vallejo de Trujillo. Es una comunidad estudiantil que

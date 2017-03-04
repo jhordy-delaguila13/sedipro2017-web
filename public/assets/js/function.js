@@ -8,6 +8,10 @@ $('#top').affix({
     }
 });
 
+/* HOME --SCROLLING
+-----------------------
+ */
+
 
 /*  CAROUSEL
 --------------------------------------
@@ -17,7 +21,6 @@ $(document).ready(function() {
         interval: 5000
     })
 });
-
 
 
 /* GALLERY

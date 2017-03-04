@@ -103,7 +103,62 @@ nav ul a:hover{
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    text-align: center;
+    color: white;
 }
+
+.buttom-white {
+    background-color: transparent;
+    border-radius: 3px;
+    padding: 13px 30px;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "proxima-nova",Helvetica,sans-serif;
+}
+
+.buttom-white:hover{
+    background-color: #c9f2fa;
+    border-radius: 3px;
+    padding: 13px 30px;
+    border: 2px solid #000;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "proxima-nova",Helvetica,sans-serif;
+}
+
+.intro-text{
+   padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+.intro-lead-in{
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: italic;
+    font-size: 40px;
+}
+
+@media (min-width: 768px) {
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+}
+
+.btn-xl {
+    color: white;
+    background-color: #fed136;
+    border-color: #fed136;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+}
+
 div.text-horinzontal-left {
     position: absolute;
     display: table-cell;
@@ -113,14 +168,13 @@ div.text-horinzontal-left {
     left: 150px;
 }
 
-
 .about{
     display: table;
     position: relative;
     width: 100%;
     height: 100%;
     text-align: center;
-    padding: 150px 0;
+    padding: 120px 0 50px;
     background-color: #c9f2fa;
 }
 
@@ -140,7 +194,7 @@ h1 > span{
 }
 
 .about p{
-    padding: 100px;
+    padding: 90px;
     font-size: 2em;
     color: #000000;
     line-height: 31px;
@@ -174,6 +228,7 @@ h1 > span{
 .background-white{
     background-color: #FFFFFF !important;
 }
+
 
 .btn-red{
     /*
@@ -209,7 +264,6 @@ h1 > span{
     color: white;
     */
 }
-
 
 .tex-center{
     text-align: center;
@@ -330,7 +384,6 @@ h2{
     height: 100%;
 }
 
-
 /*  HOME-SOCIAL
 ------------------------
  */
@@ -346,39 +399,28 @@ h2{
     padding:15px;
 }
 
-
 .google-pluse:hover{background:#DD4B39;color:#FFF;}
 .facebook:hover{background:#3b5998;color:#FFF;}
 .youtube:hover{background:#c4302b;color:#FFF;}
-.social-large i {
-    font-size: 40px !important;
-}
-.google-plus-large:hover{
-    color: #DD4B39;
-}
-.facebook-large:hover{
-    color: #3b5998;
-}
-.youtube-large:hover{
-    color: #c4302b;
-}
+.social-large i {font-size: 40px !important;}
+.google-plus-large:hover{color: #DD4B39;}
+.facebook-large:hover{color: #3b5998;}
+.youtube-large:hover{color: #c4302b;}
 
 /* FOOTER
 -----------------------
  */
 
 footer{
+    text-align: center;
     padding: 40px 0;
     background-color: #FFFFFF;
 }
 
 
-
-
 /* ABOUT
 --------------------------------------------------
  */
-
 
 .task-light{
     color: #001F45;
@@ -471,8 +513,6 @@ footer{
 .img-box li a i:hover{
     color: #000;
 }
-
-
 
 /*  EVENTS
 ----------------------------------------------
@@ -626,7 +666,6 @@ footer{
     display: none;
 }
 
-
 /* CONTACT
 ------------------------------------
  */
@@ -687,8 +726,6 @@ footer{
     }
 }
 
-
-
 .divide{
     width: 50%;
     color: #FFFFFF;
@@ -709,49 +746,30 @@ footer{
     margin-top: 30px;
     margin: 0 auto;
     max-width: 330px;
-    padding: 40px 40px;
-}
-
-.input-group {
-    margin: 5px 0px;
-}
-
-
-.addon-facebook {
-    background-color: #345387;
-    border: none;
-    border-radius: 2px 0px 0px 2px;
-    color: #FFFFFF;
-}
-
-.addon-google{
-    background-color: #F44336;
-    border: none;
-    border-radius: 2px 0px 0px 2px;
-    color: #FFFFFF;
+    padding: 50px 40px 10px;
 }
 
 .btn-facebook{
-    background-color: #345387;
+    background-color: #3b5998 ;
     color: #FFFFFF;
     border-radius: 0px 2px 2px 0px;
     font-size: 15px;
 }
 .btn-facebook:hover {
-    background-color: #0c5287;
+    background-color: #476bb6;
     color: #FFFFFF;
     border-radius: 0px 2px 2px 0px;
     font-size: 15px;
 }
 
 .btn-google{
-    background-color: #F44336;
+    background-color: #dd4b39;
     color: #FFFFFF;
     border-radius: 0px 2px 2px 0px;
     font-size: 15px;
 }
 .btn-google:hover {
-    background-color: #f44013;
+    background-color: #db6456;
     color: #FFFFFF;
     border-radius: 0px 2px 2px 0px;
     font-size: 15px;

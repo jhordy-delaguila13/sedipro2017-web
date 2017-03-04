@@ -2,8 +2,8 @@
 @include('inc.navbar-fixed')
 
 @section('header')
-    <header class="background-white">
-        <img src="{{ asset('assets/img/about/header.sedipro.jpg') }}" class="img-responsive all-image">
+    <header class="background-white tex-center">
+            <img src="{{ asset('assets/img/about/header.sedipr.jpg') }}" class="img-responsive">
     </header>
 @endsection
 

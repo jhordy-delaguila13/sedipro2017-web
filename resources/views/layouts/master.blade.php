@@ -23,13 +23,18 @@
         @yield('content')
         <footer>
             <div class="container">
-                Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>
-                SediproUCV
+                <div class="panel-body social-large">
+                    <a href="https://www.facebook.com/sediproUCV/" target="_blank"><i class="fa fa-facebook-square facebook-large" aria-hidden="true"></i></a>
+                    <a href="https://plus.google.com/107293147230348827586" target="_blank"><i class="fa fa-google-plus-official google-plus-large" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-youtube youtube-large" aria-hidden="true"></i></a>
+                </div>
+                <p>Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>
+                    SediproUCV
+                </p>
             </div>
         </footer>
         <script src="{{ asset('assets/bootstrap/js/jquery-3.1.1.min.js')}}"></script>
         <script src="{{ asset('assets/bootstrap/js/bootstrap.min.js')}}"></script>
-        <script src="{{ asset('assets/magnific-popup/jquery.magnific-popup.js') }}"></script>
         <script src="{{ asset('assets/js/function.js')}}"></script>
 
     </body>

@@ -2,11 +2,11 @@
 @include('inc.navbar-fixed')
 
 @section('content')
-    <section>
+    <section class="background-gray">
         <div class="container-fluid tex-center padding">
             <div class="row no-gutter">
                 <div class="col-md-7 conceal">
-                    <img src="assets/img/login/header.sedipro.jpg" alt="" class="img-responsive all-image">
+                    <img src="{{ asset('assets/img/portada1.jpg') }}" alt="" class="img-responsive all-image">
                 </div>
                 <div class="col-md-5">
                     <br><br>
@@ -15,19 +15,20 @@
                     <p>Regístrate con</p>
                     <div class="main-login main-center">
                         <form class="form-horizontal" method="post" action="#">
-                            <div class="input-group">
-                                <span class="input-group-addon addon-facebook">
-                                    <i class="fa fa-fw fa-2x fa-facebook fa-fw"></i>
-                                </span>
-                                <a class="btn btn-lg btn-block btn-facebook" href="#">Facebook</a>
+                            <div>
+                                <a class="btn btn-lg btn-block btn-google" href="#">
+                                    <i class="fa fa-google-plus-official"></i>
+                                    &nbsp;&nbsp;ENTRAR CON GOOGLE+
+                                </a>
                             </div>
                             <br>
-                            <div class="input-group">
-                                <span class="input-group-addon addon-google">
-                                    <i class="fa fa-fw fa-2x fa-google-plus-official fa-fw"></i>
-                                </span>
-                                <a class="btn btn-lg btn-block btn-google" href="#">Google</a>
+                            <div>
+                                <a class="btn btn-lg btn-block btn-facebook" href="#">
+                                    <i class="fa fa-facebook"></i>
+                                    &nbsp;&nbsp;ENTRAR CON FACEBOOK
+                                </a>
                             </div>
+                            <br>
                             <br>
                             <p>You agree to the <strong>Terms & Conditions</strong>.</p>
                         </form>
