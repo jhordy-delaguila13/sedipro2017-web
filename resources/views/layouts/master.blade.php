@@ -22,12 +22,12 @@
         @yield('header')
         @yield('content')
         <footer>
-            <div class="container">
-                <div class="panel-body social-large">
+            <p class="container">
+                <p class="panel-body social-large">
                     <a href="https://www.facebook.com/sediproUCV/" target="_blank"><i class="fa fa-facebook-square facebook-large" aria-hidden="true"></i></a>
                     <a href="https://plus.google.com/107293147230348827586" target="_blank"><i class="fa fa-google-plus-official google-plus-large" aria-hidden="true"></i></a>
                     <a href="#"><i class="fa fa-youtube youtube-large" aria-hidden="true"></i></a>
-                </div>
+                </p>
                 <p>Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>
                     SediproUCV
                 </p>

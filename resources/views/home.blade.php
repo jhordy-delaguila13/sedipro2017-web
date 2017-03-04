@@ -2,13 +2,6 @@
 
 @section('header')
     <header class="header">
-        <div class="intro-text">
-            <h1 class="intro-lead-in">Welcome !</h1>
-            <br><br>
-            <a href="#" class="btn btn-default buttom-white">
-                Proyectos
-            </a>
-        </div>
         <!--
         <div class="text-horinzontal-left">
             <div class="btn-group">
