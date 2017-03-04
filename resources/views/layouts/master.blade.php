@@ -22,7 +22,7 @@
         @yield('header')
         @yield('content')
         <footer>
-            <p class="container">
+            <div class="container">
                 <p class="panel-body social-large">
                     <a href="https://www.facebook.com/sediproUCV/" target="_blank"><i class="fa fa-facebook-square facebook-large" aria-hidden="true"></i></a>
                     <a href="https://plus.google.com/107293147230348827586" target="_blank"><i class="fa fa-google-plus-official google-plus-large" aria-hidden="true"></i></a>
